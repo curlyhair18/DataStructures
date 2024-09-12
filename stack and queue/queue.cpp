@@ -10,7 +10,7 @@ class queue
 
     queue(int s)
     {
-        size = s;
+        this->size = s;
         arr = new int(size);
         front = -1;
         back = -1;
