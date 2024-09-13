@@ -106,3 +106,23 @@ int main()
 
     return 0;
 }
+
+
+// class Solution {
+//   public:
+//     // Function to reverse a linked list.
+//     struct Node* reverseList(struct Node* head) {
+//         Node *previous=NULL;
+//         Node *current=head;
+//         while(current!= NULL){
+//             Node* temp= current->next;
+//             current->next=previous;
+//             previous = current;
+//             current = temp;
+            
+//         }
+//         return previous;
+//         // code here
+//         // return head of reversed list
+//     }
+// };
