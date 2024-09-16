@@ -118,6 +118,8 @@ int main()
 
     SLL ll1;
     char y = 'y';
+    Node *head(10);
+    head->
     
     // while (y == 'y')
     // {
